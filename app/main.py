@@ -12,7 +12,7 @@ async def health():
 
 @app.get("/version")
 async def version():
-    return {"version": "2.0.0", "updated_by": "tekton"}
+    return {"version": "2.1.0", "updated_by": "tekton"}
 
 if __name__ == "__main__":
     import uvicorn
